@@ -274,6 +274,8 @@ under the License.
 							<arguments>ci --cache-max=0 --no-save</arguments>
 							<environmentVariables>
 								<HUSKY_SKIP_INSTALL>true</HUSKY_SKIP_INSTALL>
+								<HTTP_PROXY>http://172.17.0.1:8888/repository/npm</HTTP_PROXY>
+								<HTTPS_PROXY>https://172.17.0.1:8888/repository/npm</HTTPS_PROXY>
 							</environmentVariables>
 						</configuration>
 					</execution>
